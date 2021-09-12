@@ -25,9 +25,9 @@ pip install -r requirements.txt
 ## Data
 All of the data used for the paper are available from HuggingFace's [Datasets](https://huggingface.co/datasets).
 
-For IMDB and Yelp datasets, because there are no official validation splits, we randomly sampled 5k and 10k, respectively, from the training set and used them as valid splits. The splits are available in `data`.
+For IMDB and Yelp datasets, because there are no official validation splits, we randomly sampled 5k and 10k, respectively, from the training set and used them as valid splits. We provide the splits in this Google Drive [folder](https://drive.google.com/drive/folders/1-vvSXUzl1PzMzdyZzAWq2dB--m7tEERK?usp=sharing).
 
-Also, augmented training data generated using SSMBA and back-translation are available under `data/augmented_data`.
+Also, augmented training data generated using SSMBA and back-translation are available in the same folder.
 
 ## Training
 To train BERT model on IMDB dataset with A2T attack for 4 epochs and 1 clean epoch with gamma of 0.2:
