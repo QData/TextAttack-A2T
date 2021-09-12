@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ## Data
 All of the data used for the paper are available from HuggingFace's [Datasets](https://huggingface.co/datasets).
 
-For IMDB and Yelp datasets, because there are no official validation splits, we randomly sampled 5k and 10k, respectively, from the training set and used them as valid splits. We provide the splits in this Google Drive [folder](https://drive.google.com/drive/folders/1-vvSXUzl1PzMzdyZzAWq2dB--m7tEERK?usp=sharing).
+For IMDB and Yelp datasets, because there are no official validation splits, we randomly sampled 5k and 10k, respectively, from the training set and used them as valid splits. We provide the splits in this Google Drive [folder](https://drive.google.com/drive/folders/1-vvSXUzl1PzMzdyZzAWq2dB--m7tEERK?usp=sharing). To use them with the provided code, place each folder (e.g. `imdb`, `yelp`, `augmented_data`) inside `./data` (run `mkdir data`).
 
 Also, augmented training data generated using SSMBA and back-translation are available in the same folder.
 
